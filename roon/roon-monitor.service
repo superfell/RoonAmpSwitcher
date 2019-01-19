@@ -1,0 +1,14 @@
+[Unit]
+Description=Roon Power Amp Switcher
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/node .
+Type=simple
+Restart=on-failure
+RestartSec=61s
+WorkingDirectory=/home/dietpi/roon
+User=dietpi
+
+[Install]
+WantedBy=default.target

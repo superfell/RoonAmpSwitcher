@@ -1,0 +1,15 @@
+{
+    "name": "roon-poweramp-switcher",
+    "version": "1.0.1",
+    "description": "Turn Power Amp on/off triggered by Roon starting music to a zone.",
+    "main": "app.js",
+    "author": "Simon Fell",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "console-stamp": "^0.2.6",
+        "node-roon-api": "github:roonlabs/node-roon-api",
+        "node-roon-api-status": "github:roonlabs/node-roon-api-status",
+        "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
+        "ontime": "0.0.5"
+    }
+}
